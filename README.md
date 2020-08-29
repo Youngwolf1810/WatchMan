@@ -1,5 +1,3 @@
 ============================================================
-# WatchMan
+## Simple node js app replicating the node command 'nodemon'
 ============================================================
-
-Simple node js app replicating the node command 'nodemon'
