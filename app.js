@@ -40,15 +40,6 @@ program.version('1.1.0')
     const start2 = debounce(()=>{temp(2)},200);
     const start3 = debounce(()=>{temp(3)},200);
 
-    // let proc;
-	// const start = debounce(() => {
-    //     if(proc){
-    //         proc.kill();
-    //     }
-    //     console.log(chalk.yellow('>>>>> File Change detected'));
-    //     console.log(chalk.blue('>>>>> restarting app'));
-    //     proc = spawn('node', [ name ], { stdio: 'inherit' })}
-    //     , 200);
     chokidar.watch('.')
     .on('add', start1)
     .on('change', start2)
